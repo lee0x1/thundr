@@ -1,1 +1,2 @@
-console.info("thundr::running");
+const initMSG = () => "thundr::running";
+export = initMSG;
