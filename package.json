@@ -7,6 +7,7 @@
     "thundr": "./bin/thundr"
   },
   "scripts": {
+    "dev": "tsc -w",
     "build": "tsc -b",
     "test": "mocha -r ts-node/register 'test/**/*.ts'"
   },
